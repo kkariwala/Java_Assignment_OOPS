@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: #eee;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.icecream::before{
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    height: 60px;
+    background: #7ac5be;
+    width: 100px;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.icecream {
+  background-color: #7ac5be;
+  width: 100px;
+  height: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+}
+
+.cone {
+  margin-top: -20px;
+  background-color: tan;
+  height: 80px;
+  width: 20px;
+  z-index: -1;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}

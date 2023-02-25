@@ -1,0 +1,17 @@
+{
+  "kunal": {
+    "email": "kunalkariwala2268@gmail.com",
+    "phoneNumber": "9167574752",
+    "salary": 26000.0
+  },
+  "manoj": {
+    "email": "manoj@gmail.com",
+    "phoneNumber": "9999999999",
+    "salary": 36000.0
+  },
+  "neha": {
+    "email": "neha@gmail.com",
+    "phoneNumber": "8888888888",
+    "salary": 34000.0
+  }
+}
