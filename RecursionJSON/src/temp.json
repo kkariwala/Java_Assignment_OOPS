@@ -1,0 +1,23 @@
+{
+  "booksAuthor": {
+    "books": {
+      "B1" : "blah",
+      "B2" : "balh2",
+      "booksTye" : {
+        "blsksks" : "bdkjdkdd",
+        "dnideidj" : "cnducnc"
+      }
+    },
+    "ratingsNovels":{
+      "booksWritten": {
+        "B1" : "blah1",
+        "B2" : "blah2"
+      },
+      "novelsWritten": {
+        "authorWritten": {
+
+        }
+      }
+    }
+  }
+}

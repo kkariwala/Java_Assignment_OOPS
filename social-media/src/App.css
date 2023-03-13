@@ -1,0 +1,82 @@
+.container-custom{
+  height: 100vh;
+  width: 100vw;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-custom{
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-container{
+  height: 100%;
+  width: 50vw;
+  padding: 1px 1px 1px 1px
+}
+
+.social-media-instagram{
+  background:linear-gradient(-45deg,#515bd4,#dd2a7b,#8134af,#feda77);
+}
+
+.social-media-twitter{
+  background:linear-gradient(-45deg,#008cff,#00a3ff,#00deff,#00ffff);
+}
+
+.social-media-linkedin{
+  background:linear-gradient(-45deg,#0077b5,#00a0dc,#caccce,#86888a);
+}
+
+.social-media-whatsapp{
+  background:linear-gradient(-45deg,#075e54,#128c7e,#25d366,#dcf8c6);
+}
+
+.social-media-inner-container{
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-size: 400% 400%;
+  animation: animation 15s ease infinite;
+  transition: all 2s;
+}
+
+.social-media-inner-container-active{
+  color: white;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background-size: 400% 400%;
+  animation: animation 15s ease infinite;
+  position: absolute;
+}
+
+.social-media-icon{
+  font-size: 100px;
+}
+
+@keyframes animation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
