@@ -1,0 +1,31 @@
+.individual-item-text{
+    height: 50px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .13), 0 1px 1px 0 rgba(0, 0, 0, .11);
+}
+
+.complete-button{
+    background-color: #3AAAE5;
+    border-radius: 20px;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pressed-button{
+    background-color: #00E79F;
+}
+
+.todo-text-completed{
+    text-decoration: line-through;
+}

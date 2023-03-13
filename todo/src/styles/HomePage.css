@@ -1,0 +1,88 @@
+.container-custom{
+  height: 100vh;
+  width: 100vw;
+  background-color: #FCFDFD;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-box{
+  height: 80vh;
+  width: 50vw;
+  background-color: #f0f4f6;
+  border-radius: 20px;
+}
+
+.todo-box-header{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  background-color: #3AAAE5;
+  color: white;
+  border-radius: 20px;
+}
+
+.form-add-todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+
+.form-custom{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.enter-task-input{
+  width: 100%;
+  height: 70%;
+  border-radius: 20px;
+  border: 0px;
+  padding-left: 10px;
+}
+
+.form-control-custom{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-button-custom{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-button{
+  height: 70%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #3AAAE5;
+  border: 0px;
+  color: white;
+}
+
+.todos{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
