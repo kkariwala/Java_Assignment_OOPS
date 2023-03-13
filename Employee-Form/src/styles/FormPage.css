@@ -1,0 +1,89 @@
+.custom-row{
+  height: 90vh;
+  width: 90vw;
+  border-radius: 40px;
+}
+
+.custom-col{
+  padding: 0;
+}
+
+.custom-col-left{
+  display: flex;
+  background-image: url('../public/images/leftdiv4.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-col-right{
+  background-color: #11111B;
+}
+
+.container-custom{
+  height: 100vh;
+  width: 100vw;
+  background-color: #292836;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-div{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.equinix-logo-img{
+  height: 50px;
+}
+
+.equinix-logo{
+  margin-bottom: 80px;
+}
+
+.button-submit{
+  width: 100%;
+  background: #ff0000;
+  border: 0px;
+  margin-top: 20px;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 83%}
+  50%{background-position:100% 18%}
+  100%{background-position:0% 83%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 83%}
+  50%{background-position:100% 18%}
+  100%{background-position:0% 83%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 83%}
+  50%{background-position:100% 18%}
+  100%{background-position:0% 83%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 83%}
+  50%{background-position:100% 18%}
+  100%{background-position:0% 83%}
+}
+
+.form-custom{
+  color: white;
+  width: 80%;
+}
+
+.form-group-custom{
+  width: 100%;
+}
+
+.form-unactive{
+  display: none;
+}
